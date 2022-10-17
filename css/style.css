@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .wrap {
+    min-height: 100vh;
+  }
+
+  .header__row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+    align-items: center;
+  }
+
+  .header__logo {
+    padding: 28px 0;
+  }
+
+  .header__logo-link {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo-img {
+    margin-right: 13px;
+  }
+
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .header__list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .header__item {
+    color: #212121;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .header__item-tel {
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  .header__list-item {
+    padding: 31.5px 0;
+  }
+
+  .header__menu-link {
+    color: #212121;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .button {
+    color: #FF5900;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 100px;
+    border: 1px solid #FF5900;
+  }
+
+  .header__button {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-phone {
+    color: #FF5900;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .firstcreen__button--left {
+    background-color: #FF5900;
+    color: #FFFFFF;
+    margin-right: 32px;
+    font-size: 18px;
+  }
+
+  .firstcreen__button--right {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  .firstscreen {
+    width: 100%;
+    background-image: url(../img/firstscreen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 170px 0 210px 0;
+  }
+
+  .firstscreen-container {
+    margin-left: 200px;
+    text-align: left;
+    max-width: 780px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 68px;
+    margin-bottom: 28px;
+  }
+
+  .text {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 52px;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: left;
+  }
+
+  .subtitle {
+    font-size: 38px;
+    margin-bottom: 60px;
+  }
+
+  .subtitle-highlight {
+    color:#FF5900;
+  }
+
+  .card-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-item {
+    color:#FFFFFF;
+    max-width: 360px;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%), url(../img/bg-item.jpg);
+    padding: 40px 20px;
+  }
+
+  .card-subtitle {
+    text-transform: uppercase;
+    margin-bottom: 49px;
+  }
+
+  .card-button {
+    background-color: transparent;
+  }
+
+  .offer-container {
+    margin-left: 200px;
+  }
+
+  .offer {
+    padding: 120px 0;
+  }
+
+  .card-text-item::nth-child(oven) {
+    margin-bottom: 41px;    
+  }
